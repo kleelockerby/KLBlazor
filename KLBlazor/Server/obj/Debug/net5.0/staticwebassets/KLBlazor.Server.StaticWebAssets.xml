@@ -1,0 +1,8 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="C:\Source\Blazor\KLBlazor\KLBlazor\Client\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Source\Blazor\KLBlazor\KLBlazor\Client\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="/" Path="C:\Source\Blazor\KLBlazor\KLBlazor\Client\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Source\Blazor\KLBlazor\KLBlazor\Server\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="_content/KLBlazor.Components" Path="C:\Source\Blazor\KLBlazor\KLBlazor.Components\obj\Debug\net5.0\scopedcss\projectbundle\" />
+  <ContentRoot BasePath="_content/KLBlazor.Components" Path="C:\Source\Blazor\KLBlazor\KLBlazor.Components\wwwroot\" />
+</StaticWebAssets>

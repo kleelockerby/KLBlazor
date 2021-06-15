@@ -1,0 +1,12 @@
+C:\Source\Blazor\KLBlazor\KLBlazor\Shared\bin\Debug\net5.0\KLBlazor.Shared.deps.json
+C:\Source\Blazor\KLBlazor\KLBlazor\Shared\bin\Debug\net5.0\KLBlazor.Shared.dll
+C:\Source\Blazor\KLBlazor\KLBlazor\Shared\bin\Debug\net5.0\ref\KLBlazor.Shared.dll
+C:\Source\Blazor\KLBlazor\KLBlazor\Shared\bin\Debug\net5.0\KLBlazor.Shared.pdb
+C:\Source\Blazor\KLBlazor\KLBlazor\Shared\obj\Debug\net5.0\KLBlazor.Shared.csprojAssemblyReference.cache
+C:\Source\Blazor\KLBlazor\KLBlazor\Shared\obj\Debug\net5.0\KLBlazor.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Source\Blazor\KLBlazor\KLBlazor\Shared\obj\Debug\net5.0\KLBlazor.Shared.AssemblyInfoInputs.cache
+C:\Source\Blazor\KLBlazor\KLBlazor\Shared\obj\Debug\net5.0\KLBlazor.Shared.AssemblyInfo.cs
+C:\Source\Blazor\KLBlazor\KLBlazor\Shared\obj\Debug\net5.0\KLBlazor.Shared.csproj.CoreCompileInputs.cache
+C:\Source\Blazor\KLBlazor\KLBlazor\Shared\obj\Debug\net5.0\KLBlazor.Shared.dll
+C:\Source\Blazor\KLBlazor\KLBlazor\Shared\obj\Debug\net5.0\ref\KLBlazor.Shared.dll
+C:\Source\Blazor\KLBlazor\KLBlazor\Shared\obj\Debug\net5.0\KLBlazor.Shared.pdb

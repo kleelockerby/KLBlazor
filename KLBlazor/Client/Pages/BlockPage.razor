@@ -1,0 +1,60 @@
+﻿@page "/blockpage"
+@using System.ComponentModel.DataAnnotations
+
+<h3>BlockPage</h3>
+
+
+<XFBlock>
+    Test MS to see if they know what the fuck they are doing
+</XFBlock>
+
+<div style="margin-top: 40px;">
+    <XFTextBox id="Name" Value="@person.Name" ValueInputChanged="@OnInputChanged" ValueChanged="@OnTextChanged" Style="width: 300px;"></XFTextBox>
+</div>
+
+<div style="margin-top: 40px;">
+    <span>Results: </span>@results
+</div>
+
+@code{
+    public class Person
+    {
+        [Required]
+        [StringLength(20, ErrorMessage = "Name is Required.")]
+        public string Name { get; set; } = null;
+    }
+
+    Person person = new Person();
+
+    protected string results;
+    protected string resultChars;
+
+    protected string selectedText;
+    protected string selectedChars;
+
+    protected void OnTextChanged(string newValue)
+    {
+        person.Name = newValue;
+        selectedText = newValue;
+        results = selectedText;
+        StateHasChanged();
+    }
+
+    protected override void OnInitialized()
+    {
+        results = person.Name;
+    }
+
+    protected void OnInputChanged(string newChar)
+    {
+        selectedChars = newChar;
+        resultChars = selectedChars;
+    }
+
+    protected void OnSubmit()
+    {
+        ///bool isValid = editContext.Validate();
+        results = person.Name;
+        //results = isValid.ToString();
+    }
+}
