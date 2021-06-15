@@ -1,0 +1,85 @@
+﻿@page "/comboboxpage"
+@inject HttpClient Http
+
+<style>
+
+    .xf-combo-wrapper a.xf-button {
+        width: 30px;
+        background: #d75d1a;
+        background: -webkit-gradient(linear, left top, left bottom, from(#fe7f26), to(#d75d1a));
+        background: linear-gradient(to bottom, #fe7f26 0%, #d75d1a 100%);
+        border: 1px solid #1a78bd;
+        border-left: none;
+        border-radius: 0 4px 4px 0;
+        color: white;
+        cursor: pointer;
+        font-size: 1rem;
+        padding: 0 10px;
+        text-align: center;
+        text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+    }
+
+        .xf-combo-wrapper a.xf-button::before {
+            font-family: fontawesome;
+            content: '\f0d7';
+            color: #FFF;
+            text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+        }
+</style>
+
+@if (countries == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div style="margin-top: 25px;">
+        <div><h3 style="color: #000;">XFComboBox Class</h3></div>
+        <div style="margin-top: 20px;">
+            <div><h4 style="color: #333; border-bottom: 1px solid #ccc;">Event Results</h4></div>
+            <div style="padding: 10px 0; background-color: #F0F0F0; font-size: .85rem;">
+                <div style="padding: 10px 30px;">
+                    <div style="display: inline-block; width: 20%; color: #0073e0;">@resultProperty</div>
+                    <div style="display: inline-block;">@results</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="margin-top: 40px;">
+        <div style="font-size: .80rem; padding: 5px; color: rgb(150, 150, 150);">Bind Initial Value and Allow Clear</div>
+        <XFComboBox DataSource="@countries"
+                    TextField="@((item)=>item.CountryName)"
+                    ValueField="@((item)=>item.CountryCode)"
+                    SelectedItem="@selectedCountry1"
+                    SelectedItemChanged="@XFComboBox1_Changed"
+                    NoDisplayItems="5"
+                    AllowFiltering="true"
+                    AllowClear="true"
+                    PlaceHolder="Select A Country" />
+    </div>
+}
+
+@code {
+    private string resultProperty = "";
+    private string results = "";
+    private string selectedCountryName1 = "";
+
+    private Country[] countries;
+    private Country selectedCountry1 { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        this.countries = await Http.GetFromJsonAsync<Country[]>("sample-data/countries.json");
+        this.selectedCountry1 = countries[3];
+    }
+
+    protected void XFComboBox1_Changed(object newValue)
+    {
+        selectedCountry1 = (Country)newValue;
+        selectedCountryName1 = selectedCountry1.CountryName;
+        resultProperty = "Selected Country:";
+        results = selectedCountryName1;
+        StateHasChanged();
+    }
+}

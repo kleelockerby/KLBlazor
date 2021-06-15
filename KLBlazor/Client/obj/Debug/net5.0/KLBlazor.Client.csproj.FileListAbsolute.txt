@@ -641,3 +641,6 @@ C:\Source\Blazor\KLBlazor\KLBlazor\Client\bin\Debug\net5.0\wwwroot\_framework\KL
 C:\Source\Blazor\KLBlazor\KLBlazor\Client\obj\Debug\net5.0\build-gz\09mhtcGZ.gz
 C:\Source\Blazor\KLBlazor\KLBlazor\Client\obj\Debug\net5.0\RazorDeclaration\Pages\BlockPage.razor.g.cs
 C:\Source\Blazor\KLBlazor\KLBlazor\Client\obj\Debug\net5.0\Razor\Pages\BlockPage.razor.g.cs
+C:\Source\Blazor\KLBlazor\KLBlazor\Client\obj\Debug\net5.0\RazorDeclaration\Pages\ComboBoxPage.razor.g.cs
+C:\Source\Blazor\KLBlazor\KLBlazor\Client\obj\Debug\net5.0\Razor\Pages\ComboBoxPage.razor.g.cs
+C:\Source\Blazor\KLBlazor\KLBlazor\Client\bin\Debug\net5.0\libman.json

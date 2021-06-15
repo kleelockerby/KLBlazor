@@ -61,3 +61,4 @@ C:\Source\Blazor\KLBlazor\KLBlazor\Server\obj\Debug\net5.0\KLBlazor.Server.genru
 C:\Source\Blazor\KLBlazor\KLBlazor\Server\bin\Debug\net5.0\KLBlazor.Components.StaticWebAssets.xml
 C:\Source\Blazor\KLBlazor\KLBlazor\Server\bin\Debug\net5.0\KLBlazor.Components.dll
 C:\Source\Blazor\KLBlazor\KLBlazor\Server\bin\Debug\net5.0\KLBlazor.Components.pdb
+C:\Source\Blazor\KLBlazor\KLBlazor\Server\bin\Debug\net5.0\libman.json

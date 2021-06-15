@@ -105,7 +105,7 @@ using System.ComponentModel.DataAnnotations;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 19 "C:\Source\Blazor\KLBlazor\KLBlazor\Client\Pages\BlockPage.razor"
+#line 40 "C:\Source\Blazor\KLBlazor\KLBlazor\Client\Pages\BlockPage.razor"
       
     public class Person
     {

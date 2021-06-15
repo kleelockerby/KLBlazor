@@ -31,3 +31,9 @@ C:\Source\Blazor\KLBlazor\KLBlazor.Components\obj\Debug\net5.0\ref\KLBlazor.Comp
 C:\Source\Blazor\KLBlazor\KLBlazor.Components\obj\Debug\net5.0\KLBlazor.Components.pdb
 C:\Source\Blazor\KLBlazor\KLBlazor.Components\obj\Debug\net5.0\RazorDeclaration\Components\TextBox\XFTextBox.razor.g.cs
 C:\Source\Blazor\KLBlazor\KLBlazor.Components\obj\Debug\net5.0\Razor\Components\TextBox\XFTextBox.razor.g.cs
+C:\Source\Blazor\KLBlazor\KLBlazor.Components\obj\Debug\net5.0\RazorDeclaration\Components\ComboBox\XFComboBox.razor.g.cs
+C:\Source\Blazor\KLBlazor\KLBlazor.Components\obj\Debug\net5.0\RazorDeclaration\Components\ComboBox\XFListBoxItem.razor.g.cs
+C:\Source\Blazor\KLBlazor\KLBlazor.Components\obj\Debug\net5.0\RazorDeclaration\Components\Link\XFLink.razor.g.cs
+C:\Source\Blazor\KLBlazor\KLBlazor.Components\obj\Debug\net5.0\Razor\Components\ComboBox\XFComboBox.razor.g.cs
+C:\Source\Blazor\KLBlazor\KLBlazor.Components\obj\Debug\net5.0\Razor\Components\ComboBox\XFListBoxItem.razor.g.cs
+C:\Source\Blazor\KLBlazor\KLBlazor.Components\obj\Debug\net5.0\Razor\Components\Link\XFLink.razor.g.cs
