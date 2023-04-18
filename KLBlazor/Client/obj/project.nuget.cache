@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MBiwoClLVjmNQ/TwLyaAOXZSAe7T6m7lDCoIrt+dogMRmnRPrGxz+tiLULaz6QmjR30CR547ihHxTpV3bCXFYA==",
+  "dgSpecHash": "KK6KXMPbKjQMCRAxwCOWz4kQDOOlPyQo4LDRGCuxmekcmW/mogeXBC6vE6A/3d/We9nedp8QS1LrgreUb4ozgA==",
   "success": true,
   "projectFilePath": "C:\\Source\\Blazor\\KLBlazor\\KLBlazor\\Client\\KLBlazor.Client.csproj",
   "expectedPackageFiles": [
@@ -30,7 +30,7 @@
     "C:\\Users\\klockerby\\.nuget\\packages\\microsoft.jsinterop.webassembly\\5.0.5\\microsoft.jsinterop.webassembly.5.0.5.nupkg.sha512",
     "C:\\Users\\klockerby\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
     "C:\\Users\\klockerby\\.nuget\\packages\\system.net.http.json\\5.0.0\\system.net.http.json.5.0.0.nupkg.sha512",
-    "C:\\Users\\klockerby\\.nuget\\packages\\microsoft.netcore.app.runtime.browser-wasm\\5.0.1\\microsoft.netcore.app.runtime.browser-wasm.5.0.1.nupkg.sha512"
+    "C:\\Users\\klockerby\\.nuget\\packages\\microsoft.netcore.app.runtime.browser-wasm\\5.0.17\\microsoft.netcore.app.runtime.browser-wasm.5.0.17.nupkg.sha512"
   ],
   "logs": []
 }

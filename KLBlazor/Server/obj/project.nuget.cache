@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "80tbwbEkDZPEeGyL8Id2ffnbOGbAB8UPwH7EK3POI8ZYIZkDI6Vhjqd3cZKVTrl85l+fsSZFY+RuBowHna+KMw==",
+  "dgSpecHash": "wglwApbAlmXY1c81kah8t5V90WhsQrwcq8Ope38M6cdqxPPj+W6NUO1Nceyl8yKA4rgY+DfbYrSSRnWuvvNYbA==",
   "success": true,
   "projectFilePath": "C:\\Source\\Blazor\\KLBlazor\\KLBlazor\\Server\\KLBlazor.Server.csproj",
   "expectedPackageFiles": [
